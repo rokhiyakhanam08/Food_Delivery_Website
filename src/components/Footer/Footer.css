@@ -24,6 +24,13 @@
     gap: 20px;
 }
 
+.footer-content-left img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+   
+}
+
 .footer-content-left li {
     list-style: none;
     margin-bottom: 10px;

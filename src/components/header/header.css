@@ -1,0 +1,54 @@
+.header{
+    /* make the hero fill the viewport area and remain responsive */
+    min-height: 48vh;
+    height: auto;
+    margin: 0 auto;
+    background: url('../../assets/header_img.png') no-repeat center right;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.header-contents{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vw;
+    max-width: 50%;
+    padding-left: 6vw;
+    animation: fadeIn 1s ease;
+}
+.header-contents h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw, 22px);
+    margin: 0;
+}
+.header-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 0.8rem 1.2rem;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+@media(max-width:1050px){
+   .header-contents{
+    max-width:45%;
+   }
+}
+@media(max-width:750px){
+   .header-contents{
+    max-width:65%;
+   }
+   .header-contents p{
+    display:none;
+    }
+    .header-contents button{
+        padding:2vw 4vw;
+    }
+   }
+

@@ -1,0 +1,9 @@
+/* Basic home page container */
+.home{
+	max-width:1100px;
+	margin: 0 auto;
+	padding: 24px;
+}
+
+/* make sure header and explore sections have spacing */
+.home > * + *{ margin-top: 20px; }
